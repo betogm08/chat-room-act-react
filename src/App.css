@@ -1,0 +1,47 @@
+.main h1 {
+    font-size: 90px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .user-activity {
+    border: 1px solid rgb(230, 226, 226);
+    background-color: rgb(243 244 246 / 1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main .user-activity .chat-room-title {
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main .user-activity .user-activity-cards-group {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.main .user-activity .user-activity-cards-group .user-activity-card {
+    width: 100%;
+    margin-right: 20px;
+    border: 1px solid rgb(230, 226, 226);
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 6px 6px teal;
+}
+
+.main .user-activity .user-activity-cards-group .user-activity-card .user-name {
+    font-size: 20px;
+    color: rgb(107 114 128 / 1);
+}
+
+.main .user-activity .user-activity-cards-group .user-activity-card .total-words {
+    font-size: 30px;
+    font-weight: bold;
+}
